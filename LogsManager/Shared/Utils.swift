@@ -22,8 +22,8 @@ final class Utils {
     }
     
     static func debugDescription(_ error: Any?) -> String? {
-        guard let error = error, let error = error as? CustomDebugStringConvertible else { return nil }
-        return error.debugDescription
+        guard let error = error, let _ = error as? CustomDebugStringConvertible else { return nil }
+        return (error as AnyObject).debugDescription
     }
     
     /// Method to normalize data.
