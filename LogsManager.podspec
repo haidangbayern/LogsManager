@@ -30,7 +30,7 @@ Logs manager on top of CocoaLumberjack. Allows to easily configure log component
   
   s.dependency 'APExtensions/Occupiable', '>= 10.1.6'
   s.dependency 'CocoaLumberjack/Swift', '>= 3.7.2'
-  s.dependency 'RoutableLogger', '>= 9.1.11'
+  s.dependency 'RoutableLogger', '>= 9.1.12'
   s.default_subspec = 'ExtensionUnsafe'
   
   s.subspec 'Core' do |subspec|
